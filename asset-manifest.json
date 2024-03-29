@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/share-fare/static/css/main.402bd78b.css",
+    "main.js": "/share-fare/static/js/main.67f2d2b2.js",
+    "static/js/453.0ce76b99.chunk.js": "/share-fare/static/js/453.0ce76b99.chunk.js",
+    "static/media/logo.svg": "/share-fare/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/share-fare/index.html",
+    "main.402bd78b.css.map": "/share-fare/static/css/main.402bd78b.css.map",
+    "main.67f2d2b2.js.map": "/share-fare/static/js/main.67f2d2b2.js.map",
+    "453.0ce76b99.chunk.js.map": "/share-fare/static/js/453.0ce76b99.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.402bd78b.css",
+    "static/js/main.67f2d2b2.js"
+  ]
+}
