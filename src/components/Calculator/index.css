@@ -1,0 +1,15 @@
+.main {
+    padding: 20px;
+}
+
+.discount-input {
+    display: inline-flex;
+}
+
+.tax-input {
+    display: inline-flex;
+}
+
+.friends-input {
+    display: inline-flex;
+}
