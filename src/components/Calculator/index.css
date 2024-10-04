@@ -13,3 +13,49 @@
 .friends-input {
     display: inline-flex;
 }
+
+.error-alert {
+    max-width: 850px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+}
+
+.friends-list {
+    width: 250px;
+    vertical-align: middle;
+    .friends-list-name {
+        display: inline-block;
+        white-space: nowrap; 
+        width: 120px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        vertical-align: text-top;
+    }
+}
+
+.expenses-list {
+    vertical-align: middle;
+    .expenses-list-name {
+        display: inline-block;
+        vertical-align: text-top;
+    }
+}
+
+.delete-button {
+    vertical-align: middle;
+    padding-left: 15px;
+    .float-button {
+        float: right;
+    }
+}   
+
+.delete-button:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.delete-button:active {
+    color: darkred;
+    cursor: pointer;
+}
