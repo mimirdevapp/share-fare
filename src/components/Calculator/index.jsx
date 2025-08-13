@@ -116,10 +116,11 @@ const Calculator = () => {
   const addExpense = () => {
     if (expenseInput.expense.trim() !== '' && expenseInput.cost !== '' && expenseInput.friends.length !== 0) {
       setExpenses([...expenses, expenseInput]);
-      setExpenseInput({
-        expense: '',
-        cost: '',
-      });
+      const currObj = expenseInput;
+      currObj.expense = '';
+      currObj.cost = '';
+      
+      setExpenseInput(currObj);
     };  
   };
 
