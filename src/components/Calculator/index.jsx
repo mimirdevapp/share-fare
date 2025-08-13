@@ -119,7 +119,6 @@ const Calculator = () => {
       setExpenseInput({
         expense: '',
         cost: '',
-        friends: [],
       });
     };  
   };
